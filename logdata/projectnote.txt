@@ -1,0 +1,26 @@
+- api introduction
+- installation of axios as npm module for network requests 
+
+steps
+    npm install -g typescript ts-node (add sudo if permission denied error)
+    npm init -y (to generate the package.json file where we record dependencies)
+    npm install axios (npm module for network requests)
+
+    npm install @types/node --save--dev
+
+    npm install @types/node --save-dev is used to install TypeScript declaration files for Node.js. 
+    These declaration files, denoted by @types/node, provide type definitions for the Node.js runtime environment, 
+    allowing you to write TypeScript code with proper type checking and editor support 
+
+    
+
+
+The tsconfig.json file is the configuration file used for TypeScript projects. It allows you to specify various compiler options 
+and settings for your TypeScript code. To configure the ECMAScript target version in tsconfig.json, you can use the "target" option
+    
+to get started create the index.ts, 
+tsc index.ts - compile the .ts file(we will get the compiler version of our typescript code in index.js)
+node index.js to execute
+ts-node index.ts -- to compile and execute in on command 
+
+
