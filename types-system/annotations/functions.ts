@@ -44,6 +44,13 @@ const earthquake = {
     velocity: 4.5
 }
 const logVelocity = (earthquake: {date: Date; velocity: number}): void => {
-    
-
+    console.log(earthquake.date)
+    console.log(earthquake.velocity)
 }
+//if we want to use ther edestruction along with annotation, replace the variable "earthquake" with the actual disk
+// structuring statemente with a set of curly braces and list out the different propertines that we want to pull out from the object
+const logVelocity_ = ({date, velocity}: {date: Date; velocity: number}): void => {
+    console.log(date)
+    console.log(velocity)
+}
+logVelocity(earthquake)

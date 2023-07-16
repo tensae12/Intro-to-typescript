@@ -1,3 +1,4 @@
+import * as path from "path"
 let age: number = 3
 
 let firstName: string = 'John';
