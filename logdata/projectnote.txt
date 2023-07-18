@@ -29,9 +29,20 @@ ts-node index.ts -- to compile and execute in on command
 
             Type Annotation - tells TypeScript what type the value has
             Type Inference - is the system that TypeScript uses to guess what the type is 
-            'Any' type is type like others, typescript can n ot do any error checkong around varioables with 'Any' type.
+            'Any' type is type like others, typescript can not do any error checkong around varioables with 'Any' type.
 
             *** Type Annotation and Inference functions & objects ***
             type inference only works around the return value from a function --> so typescript is going to figure out what value
             or what type of value we return in from a function
+
+
+                    **** tyeped arrays ****
+
+            why we use type systems with Arrays:
+                > help with Inference to extracting values (type script can helps us when we make a type to arrays by helping us todo
+                type inference anytime.
+                > prevent incompatible values
+                > help with 'map' and other methods
+                
+
 
